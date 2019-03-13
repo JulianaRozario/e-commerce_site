@@ -1,0 +1,206 @@
+body
+{
+    margin:0;
+}
+.main-header-logo
+{
+   margin-right: 50%;
+ font-family: 'Monoton', cursive;
+}
+.main-header-logo a
+{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+/* .main-header direct child */
+ .main-header > div
+{
+    vertical-align: middle;
+    display: inline-block;
+} 
+
+/* moving the list to right */
+.main-nav
+{
+    vertical-align: middle;
+    display: inline-block;
+   
+}
+.main-nav-items
+{ 
+  font-family: 'Ubuntu', sans-serif;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.main-header
+{
+padding: 15px 10px;
+background-color: #ddd;
+
+}
+
+/* Button styling */
+.main-header-button
+{
+border-radius:10px;
+color:white;
+border:2px solid black;
+padding: 4px 8px;
+}
+
+
+.main-nav-item
+{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav-item a
+{
+   text-decoration: none;
+   color:black;
+   font-weight: bold;
+}
+
+.main-nav-item a:hover
+{
+color:grey;
+
+}
+
+  
+  /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Kaushan Script', cursive;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#ddd;
+  width:auto;
+  
+}
+
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  
+ width:auto;
+  padding: 10px;
+  background-color:#ddd;
+  height: auto;
+}
+
+
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color:grey;
+}
+
+.container
+{
+    margin-left:2%;
+    margin-top:3%;
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+}
+
+.zoom
+{
+  padding: 50px;
+  transition: transform .2s; 
+  width: 200px;
+  height: 180px;
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.5); 
+}
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 3000px;
+  animation: slide 8s ease-in infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width:1500px;
+}
+
+@keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -1500px;}
+  50% {margin-left: -1500px;}
+ 
+}
+.footer{ 
+  background-color: #333;
+  color:white;
+      padding:14px 24px;  
+      text-align: center; 
+      font-family: 'Varela Round', sans-serif;
+    }
+    .footer-text a{
+      text-decoration: none;
+      color:whitesmoke;
+    }
+    .footer-text a:hover{
+      text-decoration: underline;
+     
+    }
+
+
+   

@@ -1,0 +1,15 @@
+ Requirements:
+
+1. Products (listing)Browsing page: Filter- dropdown box, sort- dropdown box, pagination links, 
+product listing in a grid view( use CSS grid concepts), Each list item with an image, title, price tag,
+ offer/discount type, rating stars or not yet rated text.
+
+2. Product Catalog(as left side pane or as menu bar(categories and sub categories of products available) and based on the selected categories, list the items as in #1.
+
+3. Product detail page: with title, images, description, ratings and reviews, add to cart button.
+
+4. Cart Page : list of added products with remove button, quantity and rate, sub total and grand total, with a checkout button.
+
+5. Shipment Details input page : get full, address, contact info with place order button. (payment step is skipped here)
+
+ 
